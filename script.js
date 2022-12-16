@@ -1,4 +1,10 @@
-// making slider for random number range
+
+Swal.fire(
+  'The Internet?',
+  'That thing is still around?',
+  'question'
+)
+
 
 const slider = document.querySelector("input");
 const value = document.querySelector(".value");
