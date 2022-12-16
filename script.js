@@ -1,12 +1,12 @@
 
 window.onload = function() {
-Swal.fire(
-  'Rules👇',
-  'Note: Follow the rules correctly otherwise it will not work',
-  '1. First select the limit of random numbers',
-  '2. Select the limit of guesses',
-  '3. Input your guessed number in the empty box'
-)
+swal(
+  "Rules👇",
+  "Note: Follow the rules correctly otherwise it will not work",
+  "1. First select the limit of random numbers",
+  "2. Select the limit of guesses",
+  "3. Input your guessed number in the empty box"
+);
 }
 
 const slider = document.querySelector("input");
