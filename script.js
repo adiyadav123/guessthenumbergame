@@ -5,7 +5,6 @@ Swal.fire(
   'question'
 )
 
-
 const slider = document.querySelector("input");
 const value = document.querySelector(".value");
  value.textContent = slider.value;
