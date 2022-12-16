@@ -1,9 +1,11 @@
 
 function show(){
 Swal.fire(
-  'The Internet?',
-  'That thing is still around?',
-  'question'
+  'Rules👇',
+  'Note: Follow the rules correctly otherwise it will not work',
+  '1. First select the limit of random numbers',
+  '2. Select the limit of guesses',
+  '3. Input your guessed number in the empty box'
 )
 }
 
