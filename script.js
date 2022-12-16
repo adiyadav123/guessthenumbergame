@@ -1,5 +1,5 @@
 
-function show(){
+window.onload = function() {
 Swal.fire(
   'Rules👇',
   'Note: Follow the rules correctly otherwise it will not work',
