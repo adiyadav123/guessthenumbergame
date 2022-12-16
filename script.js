@@ -1,9 +1,11 @@
 
+function show(){
 Swal.fire(
   'The Internet?',
   'That thing is still around?',
   'question'
 )
+}
 
 const slider = document.querySelector("input");
 const value = document.querySelector(".value");
