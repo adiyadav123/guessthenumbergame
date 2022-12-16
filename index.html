@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h5>Range for random number 👇</h5>
+        <div class="slider">
+            <input class="rng" id="rng" type="range" min="1" max="9" value="9">
+            <div class="value">15</div>
+        </div>
+        
+        <div class="limit">
+            <span id="allowed_guess">Allowed guesses: </span> 
+            <input  id="limit" class="limit" type="range" min="1" max="5" value="3">
+            <span id="guess_limit">0</span>
+        </div>
+        <div class="guess">
+            <input type="number" class="user"   id="user" min="1" max="9">
+            <span id="status"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
