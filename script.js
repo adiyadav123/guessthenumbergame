@@ -1,14 +1,6 @@
-
-window.onload = function() {
-swal(
-  "Rules👇",
-  "Note: Follow the rules correctly otherwise it will not work",
-  "1. First select the limit of random numbers",
-  "2. Select the limit of guesses",
-  "3. Input your guessed number in the empty box"
-);
-}
-
+alert (
+  "Rules👇\nNote: Follow the rules correctly otherwise it will not work\n1. First select the limit of random numbersn\n2. Select the limit of guesses\n3. Input your guessed number in the empty box"
+)
 const slider = document.querySelector("input");
 const value = document.querySelector(".value");
  value.textContent = slider.value;
